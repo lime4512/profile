@@ -1,12 +1,19 @@
 header {
-	padding: 20px 10px;
-	margin: 0 50px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: inline-block;
+	width: 100%;
+	background-color: white;
+	.header__main {
+		padding: 20px 10px;
+		margin: 0 50px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
 	.header__list {
 		display: flex;
-
 		gap: 15px;
 		font-weight: 700;
 		li:hover {
