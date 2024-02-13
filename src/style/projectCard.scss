@@ -1,0 +1,63 @@
+@import 'variables.scss';
+.projectCard {
+	display: flex;
+	gap: 100px;
+	margin-bottom: 80px;
+	align-items: center;
+}
+
+.projectCard__img {
+	order: 1;
+	width: 700px;
+	overflow: hidden;
+	img {
+		width: 100%;
+		height: auto;
+		border-radius: 20px;
+	}
+}
+
+.projectCard__content {
+	order: 2;
+	text-align: center;
+	width: 320px;
+	.projectCard__title {
+		font-weight: 700;
+		font-size: 25px;
+		margin-bottom: 25px;
+	}
+	.projectCard__text {
+		color: $grey;
+		line-height: 1.3;
+		margin-bottom: 25px;
+	}
+	.projectCard__stack {
+		justify-content: center;
+		display: flex;
+		gap: 20px;
+		margin-bottom: 35px;
+		li {
+			font-weight: bold;
+			font-size: 18px;
+		}
+	}
+
+	.projectCard__url {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		font-weight: bold;
+		img {
+			width: 30px;
+		}
+	}
+}
+
+.order1 {
+	order: 2 !important;
+}
+
+.order2 {
+	order: 1 !important;
+}

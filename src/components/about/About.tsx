@@ -2,11 +2,11 @@ import '../../style/about.scss'
 
 export const About = () => {
 	return (
-		<section className='about'>
+		<section className='about' id='about'>
 			<div className='about__main'>
 				<img
 					className='about__img'
-					src='/public/stock-photo-laptop.jpg'
+					src='/stock-photo-laptop.jpg'
 					alt='laptop'
 				/>
 

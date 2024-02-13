@@ -6,13 +6,13 @@ export const Header = () => {
 				<h2 className='header__logo'>Alex.dev</h2>
 				<ul className='header__list'>
 					<li>
-						<a href='#'>Home</a>
+						<a href='#home'>Home</a>
 					</li>
 					<li>
-						<a href='#'>About</a>
+						<a href='#about'>About</a>
 					</li>
 					<li>
-						<a href='#'>Project</a>
+						<a href='#project'>Project</a>
 					</li>
 					<li>
 						<a href='#'>Contact</a>

@@ -1,3 +1,5 @@
+@import 'variables.scss';
+
 .about {
 	height: 100vh;
 	display: flex;
@@ -17,8 +19,9 @@
 		width: 550px;
 		.about__subTitle {
 			font-size: 16px;
-			color: rgb(0, 119, 255);
+			color: $blue;
 			margin-bottom: 10px;
+			font-weight: bold;
 		}
 		.about__title {
 			font-size: 30px;
@@ -27,7 +30,7 @@
 		}
 		.about-text {
 			font-size: 16px;
-			color: rgb(150, 150, 150);
+			color: $grey;
 			line-height: 1.5;
 		}
 	}

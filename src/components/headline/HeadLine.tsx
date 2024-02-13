@@ -9,7 +9,7 @@ export const HeadLine = () => {
 		typeSpeed: 100,
 	})
 	return (
-		<section className='headline'>
+		<section className='headline' id='home'>
 			<div className='headline__main'>
 				<div className='headline__container'>
 					<div className='headline__content'>
@@ -25,7 +25,11 @@ export const HeadLine = () => {
 						</div>
 					</div>
 					<div className='headline__total_img'>
-						<img className='headline__total_img' src='' alt='' />
+						<img
+							className='headline__total_img'
+							src='/face-Alexander.jpg'
+							alt='face'
+						/>
 					</div>
 				</div>
 				<HeadLineList />

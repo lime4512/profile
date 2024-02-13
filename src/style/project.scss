@@ -1,0 +1,20 @@
+@import 'variables.scss';
+.project {
+	padding-top: 73px;
+}
+
+.project__content-text {
+	padding: 20px 10px;
+	margin: 0 50px;
+	.project__subTitle {
+		font-size: 16px;
+		color: $blue;
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+	.project__title {
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
+}

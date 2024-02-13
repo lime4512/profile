@@ -1,3 +1,5 @@
+@import 'variables.scss';
+
 .headline {
 	height: 100vh;
 	display: flex;
@@ -13,6 +15,7 @@
 		width: 300px;
 		height: 300px;
 		background-color: aqua;
+		border-radius: 20px;
 	}
 }
 
@@ -26,7 +29,7 @@
 	}
 	.headline__text {
 		font-size: 16px;
-		color: rgb(150, 150, 150);
+		color: $grey;
 		margin-bottom: 30px;
 		height: 38px;
 	}
