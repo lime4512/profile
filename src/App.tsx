@@ -1,11 +1,11 @@
 import { Header } from './components/header/Header'
 import { HeadLine } from './components/headline/HeadLine'
-import './App.scss'
 import { About } from './components/about/About'
 import { useEffect } from 'react'
 import smoothscroll from 'smoothscroll-polyfill'
 import { Project } from './components/project/Project'
 import { Contact } from './components/contact/Contact'
+import { Footer } from './components/footer/Footer'
 function App() {
 	useEffect(() => {
 		smoothscroll.polyfill()
@@ -19,6 +19,7 @@ function App() {
 				<Project />
 				<Contact />
 			</main>
+			<Footer />
 		</>
 	)
 }

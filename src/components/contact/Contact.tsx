@@ -25,7 +25,7 @@ export const Contact = () => {
 				<ContactCard
 					title='Telegram'
 					name='@lime4512'
-					img='/public/telegram.png'
+					img='/telegram.png'
 					copyName='https://t.me/lime4512'
 					copy={true}
 				/>
