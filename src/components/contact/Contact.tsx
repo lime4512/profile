@@ -11,21 +11,21 @@ export const Contact = () => {
 				<ContactCard
 					title='Mail'
 					name='lime451212@gmail.com'
-					img='/mail.svg'
+					img='/mail-64.png'
 					copyName='lime451212@gmail.com'
 					copy={true}
 				/>
 				<ContactCard
 					title='Telegram'
 					name='@lime4512'
-					img='/telegram.png'
+					img='/telegram-48.png'
 					copyName='https://t.me/lime4512'
 					copy={true}
 				/>
 				<ContactCard
 					title='Location'
 					name='Russia'
-					img='/location.svg'
+					img='/location-50.png'
 					copyName=''
 					copy={false}
 				/>
