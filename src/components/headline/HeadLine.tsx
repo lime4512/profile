@@ -27,7 +27,7 @@ export const HeadLine = () => {
 					<div className='headline__total_img'>
 						<img
 							className='headline__total_img'
-							src='/face-Alexander.jpg'
+							src='./face-Alexander.jpg'
 							alt='face'
 						/>
 					</div>
