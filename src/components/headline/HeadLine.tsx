@@ -17,10 +17,10 @@ export const HeadLine = () => {
 						<p className='headline__text'>{typeEffect}</p>
 						<div className='headline__social'>
 							<a href='#'>
-								<img src='/github_black_logo_icon_147128.svg' alt='' />
+								<img src='./github_black_logo_icon_147128.svg' alt='' />
 							</a>
 							<a href='#'>
-								<img src='/telegram_black_logo_icon_147073.svg' alt='' />
+								<img src='./telegram_black_logo_icon_147073.svg' alt='' />
 							</a>
 						</div>
 					</div>

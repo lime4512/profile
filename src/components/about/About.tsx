@@ -6,7 +6,7 @@ export const About = () => {
 			<div className='about__main'>
 				<img
 					className='about__img'
-					src='/stock-photo-laptop.jpg'
+					src='./stock-photo-laptop.jpg'
 					alt='laptop'
 				/>
 

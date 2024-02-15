@@ -1,11 +1,11 @@
 export const linkItem = [
 	{
 		id: 1,
-		src: '/javascript-original.svg',
+		src: './javascript-original.svg',
 	},
 	{
 		id: 5,
-		src: '/typescript-original.svg',
+		src: './typescript-original.svg',
 	},
 	{
 		id: 2,
@@ -13,22 +13,22 @@ export const linkItem = [
 	},
 	{
 		id: 3,
-		src: '/html5-original.svg',
+		src: './html5-original.svg',
 	},
 	{
 		id: 6,
-		src: '/Sass-icon-vector.svg',
+		src: './Sass-icon-vector.svg',
 	},
 	{
 		id: 4,
-		src: '/react.svg',
+		src: './react.svg',
 	},
 	{
 		id: 7,
-		src: '/Mobx-icon-vector.svg',
+		src: './Mobx-icon-vector.svg',
 	},
 	{
 		id: 8,
-		src: '/nextjs.png',
+		src: './nextjs.png',
 	},
 ]

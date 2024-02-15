@@ -10,17 +10,17 @@ export const Footer = () => {
 					<ul className='footer__list'>
 						<li>
 							<a href='https://t.me/lime4512'>
-								<img src='/telegram-white.png' alt='' />
+								<img src='./telegram-white.png' alt='' />
 							</a>
 						</li>
 						<li>
 							<a href='https://github.com/lime4512'>
-								<img src='/github-white.png' alt='' />
+								<img src='./github-white.png' alt='' />
 							</a>
 						</li>
 						<li>
 							<a href='https://vk.com/lime4512'>
-								<img src='/vk-white.png' alt='' />
+								<img src='./vk-white.png' alt='' />
 							</a>
 						</li>
 					</ul>
