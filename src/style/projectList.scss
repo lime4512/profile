@@ -3,3 +3,9 @@
 	justify-content: center;
 	margin-top: 70px;
 }
+
+@media (max-width: 1127px) {
+	.project__container {
+		margin-top: 25px;
+	}
+}

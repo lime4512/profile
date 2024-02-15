@@ -22,7 +22,18 @@
 .contact__content__list {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 	gap: 50px;
 	justify-content: center;
 	margin-bottom: 150px;
+}
+
+@media (max-width: 1127px) {
+	.contact__content-text {
+		text-align: center;
+	}
+	.contact__content__list {
+		gap: 30px;
+		margin-bottom: 30px;
+	}
 }

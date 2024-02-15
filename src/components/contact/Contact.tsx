@@ -9,13 +9,6 @@ export const Contact = () => {
 			</div>
 			<div className='contact__content__list'>
 				<ContactCard
-					title='Location'
-					name='Russia'
-					img='/location.svg'
-					copyName=''
-					copy={false}
-				/>
-				<ContactCard
 					title='Mail'
 					name='lime451212@gmail.com'
 					img='/mail.svg'
@@ -28,6 +21,13 @@ export const Contact = () => {
 					img='/telegram.png'
 					copyName='https://t.me/lime4512'
 					copy={true}
+				/>
+				<ContactCard
+					title='Location'
+					name='Russia'
+					img='/location.svg'
+					copyName=''
+					copy={false}
 				/>
 			</div>
 		</section>

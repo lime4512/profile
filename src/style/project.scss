@@ -18,3 +18,12 @@
 		margin-bottom: 20px;
 	}
 }
+
+@media (max-width: 1127px) {
+	.project__content-text {
+		text-align: center;
+	}
+	.project {
+		padding-top: 30px;
+	}
+}

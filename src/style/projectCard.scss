@@ -1,6 +1,7 @@
 @import 'variables.scss';
 .projectCard {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 100px;
 	margin-bottom: 80px;
 	align-items: center;
@@ -8,8 +9,8 @@
 
 .projectCard__img {
 	order: 1;
-	width: 700px;
-	height: 400px;
+	max-width: 700px;
+	max-height: 400px;
 	overflow: hidden;
 	img {
 		width: 100%;
@@ -21,7 +22,7 @@
 .projectCard__content {
 	order: 2;
 	text-align: center;
-	width: 320px;
+	max-width: 320px;
 	.projectCard__title {
 		font-weight: 700;
 		font-size: 25px;
@@ -61,4 +62,27 @@
 
 .order2 {
 	order: 1 !important;
+}
+
+@media (max-width: 1127px) {
+	.projectCard__content {
+		order: 1;
+	}
+
+	.projectCard__img {
+		order: 2;
+	}
+
+	.projectCard {
+		gap: 25px;
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+
+	.projectCard__img {
+		max-width: 100%;
+		height: auto;
+		margin: 0 10px;
+		padding: 0 5px;
+	}
 }

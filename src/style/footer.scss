@@ -8,12 +8,14 @@ footer {
 	align-items: center;
 	padding: 20px 10px;
 	margin: 0 50px;
+	flex-wrap: wrap;
 }
 .footer__title {
 	color: white;
 }
 
 .footer__contact {
+	flex-wrap: wrap;
 	display: flex;
 	align-items: center;
 	gap: 50px;
@@ -26,5 +28,18 @@ footer {
 	}
 	.footer__tel {
 		color: white;
+	}
+}
+
+@media (max-width: 1127px) {
+	.footer__title {
+		margin-bottom: 10px;
+	}
+	.footer__content {
+		justify-content: center;
+	}
+	.footer__contact {
+		justify-content: center;
+		gap: 20px;
 	}
 }
