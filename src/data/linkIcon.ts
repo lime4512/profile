@@ -9,7 +9,7 @@ export const linkItem = [
 	},
 	{
 		id: 2,
-		src: '/css3-original.svg',
+		src: './css3-original.svg',
 	},
 	{
 		id: 3,
