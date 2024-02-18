@@ -5,7 +5,7 @@ import { useState } from 'react'
 import { PreLoading } from '../loading/PreLoading'
 export const HeadLine = () => {
 	const [isLoading, isSetLoading] = useState(true)
-	const handleImage = ()=>{
+	const handleImage = () => {
 		isSetLoading(false)
 	}
 	const [typeEffect] = useTypewriter({
@@ -31,16 +31,20 @@ export const HeadLine = () => {
 						</div>
 					</div>
 					<div className='headline__total_img'>
-						{isLoading ? (
+						<div className={isLoading ? '' : 'none_Loading'}>
 							<PreLoading />
-						) : (
-							<img
-								className='headline__total_img'
-								src='/profile/face-Alexander.jpg'
-								alt='face'
-								onLoad={handleImage}
-							/>
-						)}
+						</div>
+
+						<img
+							className={
+								isLoading
+									? 'headline__total__Face'
+									: 'headline__total__Face flex_Loading'
+							}
+							src='/profile/face-Alexander.jpg'
+							alt='face'
+							onLoad={handleImage}
+						/>
 					</div>
 				</div>
 				<HeadLineList />

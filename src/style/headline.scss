@@ -18,11 +18,20 @@
 		align-items: center;
 		width: 300px;
 		height: 300px;
-
-		border-radius: 20px;
+		.headline__total__Face {
+			display: none;
+			border-radius: 20px;
+		}
 	}
 }
 
+.none_Loading {
+	display: none;
+}
+
+.flex_Loading {
+	display: flex !important;
+}
 .headline__content {
 	max-width: 550px;
 	.headline__title {
