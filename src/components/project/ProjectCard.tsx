@@ -34,9 +34,12 @@ export const ProjectCard: FunctionComponent<Props> = ({
 					))}
 				</ul>
 
-				<a href={urlCode} className='projectCard__url'>
-					Code <img src='./github_black_logo_icon_147128.svg' alt='' />
-				</a>
+				<button
+					onClick={() => (window.location.href = urlCode)}
+					className='projectCard__url'
+				>
+					Code <img src='profile/github_black_logo_icon_147128.svg' alt='' />
+				</button>
 			</div>
 		</div>
 	)
