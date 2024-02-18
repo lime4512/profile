@@ -35,7 +35,7 @@ export const ProjectCard: FunctionComponent<Props> = ({
 				</ul>
 
 				<a href={urlCode} className='projectCard__url'>
-					Code <img src='/github_black_logo_icon_147128.svg' alt='' />
+					Code <img src='./github_black_logo_icon_147128.svg' alt='' />
 				</a>
 			</div>
 		</div>
