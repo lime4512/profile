@@ -39,7 +39,7 @@ export const ContactCard: FunctionComponent<Props> = ({
 			</div>
 			{copy ? (
 				<button className='contact__mail__copy' onClick={copyTach}>
-					<img src='/content_copy.svg' alt='' />
+					<img src='./content_copy.svg' alt='' />
 				</button>
 			) : (
 				<></>
